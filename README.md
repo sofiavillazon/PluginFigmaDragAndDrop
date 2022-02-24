@@ -1,7 +1,6 @@
 # PluginFigmaDragAndDrop
 Kushki Meetup - PluginFigma-DragAndDrop
-![image](https://user-images.githubusercontent.com/2732239/155596999-ff6aa72e-f249-4fce-81db-7cc93491c2a8.png)
-
+![image](https://user-images.githubusercontent.com/2732239/155597526-c03bedcf-d9f2-43b5-a1af-c586e382b7a3.png)
 
 Pasos para instalación:
    1. Asegúrate de tener instalado Node
