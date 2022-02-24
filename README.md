@@ -1,5 +1,6 @@
 # PluginFigmaDragAndDrop
 Kushki Meetup - PluginFigma-DragAndDrop
+![image](https://user-images.githubusercontent.com/2732239/155596999-ff6aa72e-f249-4fce-81db-7cc93491c2a8.png)
 
 
 Pasos para instalación:
