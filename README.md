@@ -16,3 +16,12 @@ Pasos para instalación:
    ![image](https://user-images.githubusercontent.com/2732239/155594367-7d08ba27-ae97-45d4-b94a-b9d3b5010bdf.png)
    
    6. ahora ya puedes importar el plugin desde figma
+
+
+**Para el ejemplo se usaron los siguientes recursos**
+
+- kit de íconos de la comunidad de Figma
+https://www.figma.com/community/file/931094174831888421/Empty-State-Illustrations-Freebies-%E2%AD%90
+
+- Repositorio de donde se tomó el código para el Drag and Drop (repositorio de james04321)
+https://github.com/figma/plugin-samples/tree/master/icon-drag-and-drop
