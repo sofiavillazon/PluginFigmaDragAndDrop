@@ -1,40 +1,28 @@
-Below are the steps to get your plugin running. You can also find instructions at:
+# PluginFigmaDragAndDrop
+Kushki Meetup - PluginFigma-DragAndDrop
 
-  https://www.figma.com/plugin-docs/setup/
 
-This plugin template uses Typescript and NPM, two standard tools in creating JavaScript applications.
+Pasos para instalación:
+   1. Asegúrate de tener instalado Node
+   2. Instala typescript con: $ npm instal -g typescript  
+   3. Instala el paquete Plugin-typing :  npm install --save-dev @figma/plugin-typings 
+   4. Asegúrate que se instalaron las dependencias con: $ npm install (esto generará el node_modules)
+   5. en tu editor de texto usa el comando: 
+     - shift + command + B 
+     - 
+   ![image](https://user-images.githubusercontent.com/2732239/155594086-12dc97d4-825a-43cb-95e6-aaecb870e274.png)
+     - has click en el primer item  "tsc:build - tsconfig.json"
+     
+   ![image](https://user-images.githubusercontent.com/2732239/155594367-7d08ba27-ae97-45d4-b94a-b9d3b5010bdf.png)
+   
+   6. ahora ya puedes importar el plugin desde figma
 
-First, download Node.js which comes with NPM. This will allow you to install TypeScript and other
-libraries. You can find the download link here:
 
-  https://nodejs.org/en/download/
+**Para el ejemplo se usaron los siguientes recursos**
 
-Next, install TypeScript using the command:
+- kit de íconos de la comunidad de Figma
+https://www.figma.com/community/file/931094174831888421/Empty-State-Illustrations-Freebies-%E2%AD%90
 
-  npm install -g typescript
+- Repositorio de donde se tomó el código para el Drag and Drop (repositorio de james04321)
+https://github.com/figma/plugin-samples/tree/master/icon-drag-and-drop
 
-Finally, in the directory of your plugin, get the latest type definitions for the plugin API by running:
-
-  npm install --save-dev @figma/plugin-typings
-
-If you are familiar with JavaScript, TypeScript will look very familiar. In fact, valid JavaScript code
-is already valid Typescript code.
-
-TypeScript adds type annotations to variables. This allows code editors such as Visual Studio Code
-to provide information about the Figma API while you are writing code, as well as help catch bugs
-you previously didn't notice.
-
-For more information, visit https://www.typescriptlang.org/
-
-Using TypeScript requires a compiler to convert TypeScript (code.ts) into JavaScript (code.js)
-for the browser to run.
-
-We recommend writing TypeScript code using Visual Studio code:
-
-1. Download Visual Studio Code if you haven't already: https://code.visualstudio.com/.
-2. Open this directory in Visual Studio Code.
-3. Compile TypeScript to JavaScript: Run the "Terminal > Run Build Task..." menu item,
-    then select "tsc: watch - tsconfig.json". You will have to do this again every time
-    you reopen Visual Studio Code.
-
-That's it! Visual Studio Code will regenerate the JavaScript file every time you save.
